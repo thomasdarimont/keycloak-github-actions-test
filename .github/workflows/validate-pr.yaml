@@ -27,7 +27,7 @@ jobs:
         uses: gsactions/commit-message-checker@v1
         with:
           pattern: '^KEYCLOAK-\d{1,5}\s.*'
-          error: 'Commit messasge title must be prefixed with KEYCLOAK-Issue followed by a space, e.g.: KEYCLOAK-12345 My message'
+          error: 'Commit message title must be prefixed with KEYCLOAK-Issue followed by a space, e.g.: KEYCLOAK-12345 My message'
           excludeTitle: 'false' # optional: this excludes the title of a pull request
           excludeDescription: 'true' # optional: this excludes the description body of a pull request
           checkAllCommitMessages: 'true' # optional: this checks all commits associated with a pull request
